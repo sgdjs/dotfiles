@@ -1,4 +1,4 @@
-source ./vimrc.bepo
+source ~/hub/vimrc/vimrc.bepo
 "source ./vimrc.bepoqwerty
 "   Version originale proposée sur bépo.fr/vim
 
@@ -7,8 +7,12 @@ source ./vimrc.bepo
 
 " For multi-byte character support (CJK support, for example):
 "set fileencodings=ucs-bom,utf-8,cp936,big5,euc-jp,euc-kr,gb18030,latin1
- 
-set tw=72       "TextWidth"
+
+set wrap
+set linebreak
+set textwidth=72
+set wrapmargin=0
+
 " Remap to tab (vim.wikia.com)
 nnoremap <Tab> <Esc>
 vnoremap <Tab> <Esc>gV
