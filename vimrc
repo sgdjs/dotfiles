@@ -1,14 +1,24 @@
-source ./vimrc.bepo
+source ~/.vim/vimrc.bepo
+" source ~/hub/vimrc/vimrc.vundle
 "source ./vimrc.bepoqwerty
 "   Version originale proposée sur bépo.fr/vim
+
+set nocompatible
+" Initialisation de pathogen
+call pathogen#infect()
+call pathogen#helptags()
 
 " .vimrc
 " See: http://vimdoc.sourceforge.net/htmldoc/options.html for details
 
 " For multi-byte character support (CJK support, for example):
 "set fileencodings=ucs-bom,utf-8,cp936,big5,euc-jp,euc-kr,gb18030,latin1
- 
-set tw=72       "TextWidth"
+
+set wrap
+set linebreak
+set textwidth=72
+set wrapmargin=0
+
 " Remap to tab (vim.wikia.com)
 nnoremap <Tab> <Esc>
 vnoremap <Tab> <Esc>gV
