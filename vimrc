@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-source ~/hub/vimrc/vimrc.bepo
-=======
 source ~/.vim/vimrc.bepo
 " source ~/hub/vimrc/vimrc.vundle
->>>>>>> master
 "source ./vimrc.bepoqwerty
 "   Version originale proposée sur bépo.fr/vim
 
