@@ -1,6 +1,16 @@
+<<<<<<< HEAD
 source ~/hub/vimrc/vimrc.bepo
+=======
+source ~/.vim/vimrc.bepo
+" source ~/hub/vimrc/vimrc.vundle
+>>>>>>> master
 "source ./vimrc.bepoqwerty
 "   Version originale proposée sur bépo.fr/vim
+
+set nocompatible
+" Initialisation de pathogen
+call pathogen#infect()
+call pathogen#helptags()
 
 " .vimrc
 " See: http://vimdoc.sourceforge.net/htmldoc/options.html for details
