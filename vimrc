@@ -1,51 +1,16 @@
-
-
 source ~/.vim/vimrc.bepo
-" source ~/hub/vimrc/vimrc.vundle
+"source ~/hub/vimrc/vimrc.vundle
 "source ./vimrc.bepoqwerty
-"   Version originale proposée sur bépo.fr/vim
 
 set nocompatible
 " Initialisation de pathogen
 call pathogen#infect()
 call pathogen#helptags()
 
-" .vimrc
-" See: http://vimdoc.sourceforge.net/htmldoc/options.html for details
-
-" For multi-byte character support (CJK support, for example):
-"set fileencodings=ucs-bom,utf-8,cp936,big5,euc-jp,euc-kr,gb18030,latin1
-
 let g:Powerline_symbols = 'fancy'
 let g:airline_powerline_fonts = 1
 set encoding=utf-8
 set t_Co=256
-" set fillchars+=stl:\, stlnc:\
-" let g:Powerline_mode_V="V LINE"
-" set guifont=Meslo\ LG\ L\ Regular\ for\ Powerline\ 12
-
-" if !exists('g:airline_symbols')
-"     let g:airline_symbols = {}
-" endif
-
-" unicode symbols
-"   let g:airline_left_sep = '»'
-"   let g:airline_left_sep = '▶'
-"   let g:airline_right_sep = '«'
-"   let g:airline_right_sep = '◀'
-"   let g:airline_symbols.crypt = '🔒'
-"   let g:airline_symbols.linenr = '␊'
-"   let g:airline_symbols.linenr = '␤'
-"   let g:airline_symbols.linenr = '¶'
-"   let g:airline_symbols.maxlinenr = '☰'
-"   let g:airline_symbols.maxlinenr = ''
-"   let g:airline_symbols.branch = '⎇'
-"   let g:airline_symbols.paste = 'ρ'
-"   let g:airline_symbols.paste = 'Þ'
-"   let g:airline_symbols.paste = '∥'
-"   let g:airline_symbols.spell = 'Ꞩ'
-"   let g:airline_symbols.notexists = '∄'
-"   let g:airline_symbols.whitespace = 'Ξ'
 
 set laststatus=2
 set ttimeoutlen=50
@@ -55,13 +20,12 @@ set linebreak
 set textwidth=72
 set wrapmargin=0
 
-" Remap to tab (vim.wikia.com)
 nnoremap <Tab> <Esc>
 vnoremap <Tab> <Esc>gV
 onoremap <Tab> <Esc>
 inoremap <Tab> <Esc>`^
 inoremap <Leader><Tab> <Tab>
-
+noremap <SPACE> :
 
 set tabstop=4       " Number of spaces that a <Tab> in the file counts for.
  
