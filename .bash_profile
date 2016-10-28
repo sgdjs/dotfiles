@@ -6,4 +6,4 @@ PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
 export PATH
 alias p='python'
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-alias dotgit='/usr/bin/git --git-dir=/Users/simongrandjacques/.dotfiles/ --work-tree=/Users/simongrandjacques'
+alias dotgit='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
