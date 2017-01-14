@@ -1,4 +1,5 @@
-source ~/.vim/vimrc.bepo
+"source ~/.vim/vimrc.bepo
+source ~/.vim/vimrc.optimo
 "source ~/hub/vimrc/vimrc.vundle
 "source ./vimrc.bepoqwerty
 
@@ -26,6 +27,10 @@ onoremap <Tab> <Esc>
 inoremap <Tab> <Esc>`^
 inoremap <Leader><Tab> <Tab>
 noremap <SPACE> :
+
+" Search down into subfolders and display options
+set path+=**
+set wildmenu
 
 set tabstop=4       " Number of spaces that a <Tab> in the file counts for.
  
