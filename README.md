@@ -3,7 +3,7 @@
 ## Use my dotfile :
 
 ```
-git clone --bare https://github.com/sgdjs/.dotfiles.git $HOME/.dotfiles
+git clone --bare https://github.com/sgdjs/dotfiles.git $HOME/.dotfiles
 alias dotgit='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME/'
 dotgit config --local status.showUntrackedFiles no
 dotgit checkout <branch>
