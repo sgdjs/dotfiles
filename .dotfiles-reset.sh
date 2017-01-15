@@ -5,7 +5,8 @@ rm -rf ~/.tmux
 rm ~/.bash_profile
 rm ~/.dotfiles-reset.sh
 rm ~/.git-completion.bash
-rm ~/.gitignore
+rm ~/.gitignore_global
+rm ~/.gitconfig
 rm ~/.gitmodules
 rm ~/.tmux.conf
 rm ~/README.md
