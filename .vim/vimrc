@@ -2,12 +2,7 @@
 source ~/.vim/vimrc.optimo
 "source ./vimrc.bepoqwerty
 
-"source ~/hub/vimrc/vimrc.vundle
-
-set nocompatible
-" Initialisation de pathogen
-call pathogen#infect()
-call pathogen#helptags()
+source ~/hub/vimrc/vimrc.vundle
 
 let g:Powerline_symbols = 'fancy'
 let g:airline_powerline_fonts = 1
