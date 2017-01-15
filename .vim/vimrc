@@ -2,7 +2,7 @@
 source ~/.vim/vimrc.optimo
 "source ./vimrc.bepoqwerty
 
-source ~/hub/vimrc/vimrc.vundle
+source ~/.vim/vimrc.vundle
 
 let g:Powerline_symbols = 'fancy'
 let g:airline_powerline_fonts = 1
