@@ -1,7 +1,8 @@
 "source ~/.vim/vimrc.bepo
 source ~/.vim/vimrc.optimo
-"source ~/hub/vimrc/vimrc.vundle
 "source ./vimrc.bepoqwerty
+
+"source ~/hub/vimrc/vimrc.vundle
 
 set nocompatible
 " Initialisation de pathogen
