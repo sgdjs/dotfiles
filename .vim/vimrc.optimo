@@ -52,9 +52,9 @@ noremap g" g0
 " ————————————————————————
 noremap " 1
 noremap 1 "
-noremap « 2
+noremap < 2
 noremap 2 <
-noremap » 3
+noremap > 3
 noremap 3 >
 noremap ( 4
 noremap 4 (
