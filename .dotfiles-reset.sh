@@ -3,6 +3,7 @@ rm -rf ~/.dotfiles
 rm -rf ~/.vim
 rm -rf ~/.tmux
 rm ~/.bash_profile
+rm ~/.dotfiles-reset.sh
 rm ~/.git-completion.bash
 rm ~/.gitignore
 rm ~/.gitmodules
