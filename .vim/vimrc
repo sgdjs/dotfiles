@@ -98,8 +98,6 @@ set ruler           " Show the line and column number of the cursor position,
  
 set mouse=a         " Enable the use of the mouse.
  
-filetype plugin indent on
-
 " Les Couleurs
 syntax enable
 set background=light
