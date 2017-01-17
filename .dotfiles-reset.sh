@@ -16,3 +16,5 @@ git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME/ config --local status.showUntr
 git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME/ checkout master
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
+source ~/.bash_profile
+source ~/.inputrc

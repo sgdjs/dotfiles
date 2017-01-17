@@ -9,8 +9,7 @@
 "\e[19~":"Bind me!"                  ### <F08>
 "\e[20~":"\C-k \C-ucd ~/hub/dotfiles\n 
                 git push\n 
-                ~/.dotfiles-reset.sh\n
-                source ~/.bash_profile\n"  ### <F09>
+                ~/.dotfiles-reset.sh\n "  ### <F09>
 "\e[21~":"\C-k \C-ucd ~/hub/dotfiles\n"       ### <F10>
 # MacOS: Show desktop                       ### <F11>
 # MacOS: Show dashboard                     ### <F12>
