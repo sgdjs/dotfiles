@@ -11,7 +11,7 @@ bind '"\e[18~":"Bind me!"'   ### <F07>
 bind '"\e[19~":"Bind me!"'   ### <F08>
 # <F09>
 bind '"\e[20~":"cd ~/hub/dotfiles\n git push\n ~/.dotfiles-reset.sh\n
-source ~./bash_profile"'   
+source ~/.bash_profile"'   
 bind '"\e[21~":"cd ~/hub/dotfiles\n"'   ### <F10>
 # MacOS: Show desktop                   ### <F11>
 # MacOS: Show dashboard                 ### <F12>
