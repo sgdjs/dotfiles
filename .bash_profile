@@ -1,8 +1,10 @@
 set extglob
 
 # Function key bindings
-bind '"\e[23~":"cd ~/hub/dotfiles"'   ### <F11>
-bind '"\e[24~":"cd ~/hub/dotfiles"'   ### <F12>
+bind '"\e[20~":"cd ~/hub/keyboard\n"'   ### <F09>
+bind '"\e[21~":"cd ~/hub/dotfiles\n"'   ### <F10>
+# MacOS: Show desktop                   ### <F11>
+# MacOS: Show dashboard                 ### <F12>
 
 # Setting PATH for Python 3.4
 # The orginal version is saved in .bash_profile.pysave
