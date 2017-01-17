@@ -1,15 +1,10 @@
-"\eOP":"\C-k \C-u 
-        cd ~/hub/keyboard\n"    # <F1>
+"\eOP":"\C-k \C-u cd ~/hub/keyboard\n"    # <F1>
 "\eOQ":"Bind me!"               # <F2>
 "\eOR":"Bind me!"               # <F3>
 "\eOS":"Bind me!"               # <F4>
 "\e[15~":"Bind me!"             # <F5>
 "\e[17~":"Bind me!"             # <F6> 
 "\e[18~":"Bind me!"             # <F7>
-"\e[19~":"Bind me!"             # <F8>
-"\e[20~":"\C-k \C-u
-        cd ~/hub/dotfiles\n 
-        git push\n 
-        ~/.dotfiles-reset.sh\n" # <F9>
-"\e[21~":"\C-k \C-u
-        cd ~/hub/dotfiles\n"    # <F10>
+"\e[19~":"\C-k \C-u bind -f ~/.inputrc\necho Close tmux from time to time\n"             # <F8>
+"\e[20~":"\C-k \C-u cd ~/hub/dotfiles\n git push\n ~/.dotfiles-reset.sh\n" # <F9>
+"\e[21~":"\C-k \C-u cd ~/hub/dotfiles\n"    # <F10>
