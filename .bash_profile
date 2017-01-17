@@ -1,6 +1,8 @@
 set extglob
 
-bind '"\e[24~":"cd ~/hub/dotfiles"
+# Function key bindings
+bind '"\e[23~":"cd ~/hub/dotfiles"'   ### <F11>
+bind '"\e[24~":"cd ~/hub/dotfiles"'   ### <F12>
 
 # Setting PATH for Python 3.4
 # The orginal version is saved in .bash_profile.pysave
