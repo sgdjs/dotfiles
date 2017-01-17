@@ -8,6 +8,7 @@ rm ~/.git-completion.bash
 rm ~/.gitignore_global
 rm ~/.gitconfig
 rm ~/.gitmodules
+rm ~/.inputrc
 rm ~/.tmux.conf
 rm ~/README.md
 git clone --bare https://github.com/sgdjs/dotfiles.git $HOME/.dotfiles
