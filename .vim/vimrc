@@ -17,13 +17,6 @@ set linebreak
 set textwidth=72
 set wrapmargin=0
 
-nnoremap <Tab> <Esc>
-vnoremap <Tab> <Esc>gV
-onoremap <Tab> <Esc>
-inoremap <Tab> <Esc>`^
-inoremap <Leader><Tab> <Tab>
-noremap <SPACE> :
-
 " Search down into subfolders and display options
 set path+=**
 set wildmenu
