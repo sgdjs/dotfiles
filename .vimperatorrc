@@ -1,3 +1,8 @@
+" WARNING!
+" As of February 11, 2017, Vimperator module is incompatible with the
+" current version of Firefox, 51.0. I’ve downgraded to Firefox 50.1 and
+" deactivated the updates. To follow up.
+" 
 "Comportement de la barre (l = awesome bar, et s = search key)
 set complete=ls
 set wildoptions=auto
