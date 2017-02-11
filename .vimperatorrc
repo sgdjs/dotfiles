@@ -50,7 +50,7 @@ noremap K S
 noremap gs gk
 noremap gt gj
 " onglet précédant/suivant
-noremap gé gT
+noremap gw gT
 noremap gp gt
 "Le mode visuel passe en I et i/e servent à passer à l'onglet suivant/précédent
 noremap I i
