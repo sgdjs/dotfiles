@@ -9,8 +9,9 @@ rm ~/.gitignore_global
 rm ~/.gitconfig
 rm ~/.gitmodules
 rm ~/.inputrc
-rm ~/.tmux.conf
 rm ~/README.md
+rm ~/.tmux.conf
+rm ~/.vimperatorrc
 git clone --bare https://github.com/sgdjs/dotfiles.git $HOME/.dotfiles
 git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME/ config --local status.showUntrackedFiles no
 git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME/ checkout master
