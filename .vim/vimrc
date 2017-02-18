@@ -6,6 +6,14 @@ source ~/.vim/vimrc.vundle
 
 let g:Powerline_symbols = 'fancy'
 let g:airline_powerline_fonts = 1
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+let g:UltiSnipsEditSplit="vertical"
+let g:UltiSnipsSnippetsDir='/Users/sgdjs/.vim/mySnips/'
+let g:UltiSnipsSnippetDirectories=["mySnips", "UltiSnips"]
+
+
 set encoding=utf-8
 set t_Co=256
 
