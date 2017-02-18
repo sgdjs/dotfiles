@@ -1,9 +1,11 @@
 # sgdjs dotfiles
 
-## Instructions :
+## Instructions:
 
 ```shell
-# Warning! This will delete and replace files. Read carefully.
+# Warning! This will delete and replace files. 
+# Read carefully what it does.
+
 ./.dotfiles-reset.sh
 ```
 
