@@ -8,8 +8,6 @@ export PATH
 alias p='python'
 alias dotgit='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-
 if [ -f ~/.git-completion.bash ]; then
     . ~/.git-completion.bash
 fi
